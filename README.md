@@ -18,27 +18,7 @@
 
 ---
 
-## 🏗️ System Architecture
 
-*(This Mermaid diagram will render automatically on GitHub)*
-
-```mermaid
-graph TD
-    A[Uploaded Documents] --> B(Regex & Token Normalization)
-    B --> C{Hybrid Detection Engine}
-    
-    C -->|Tier 1: Exact Match| D[KMP / Rabin-Karp]
-    C -->|Tier 2: Structural| E[Winnowing Algorithm]
-    C -->|Tier 3: Semantic| F[TF-IDF Cosine Vector Map]
-    
-    D --> G[Aggregation Engine]
-    E --> G
-    F --> G
-    
-    G --> H((Real-Time Telemetry UI))
-    
-    style A fill:#f9f,stroke:#333,stroke-width:2px
-    style H fill:#bbf,stroke:#333,stroke-width:2px
 🚀 Quick Start Guide
 
 1. Clone the Repository
