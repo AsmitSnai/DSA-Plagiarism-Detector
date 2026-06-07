@@ -9,11 +9,6 @@
 
 ---
 
-## 📸 System Interface
-*(Replace the URL below with a screenshot or GIF of your running Streamlit app)*
-![Nexus UI Preview](https://via.placeholder.com/1000x450?text=Insert+Screenshot+of+Breathtaking+Soft+UI+Here)
-
----
 
 ## ✨ Enterprise Features
 * **Multi-Tiered Defense:** Fuses deterministic algorithmic matching with semantic proximity to catch both "lazy copy-pasters" and "smart paraphrasers."
